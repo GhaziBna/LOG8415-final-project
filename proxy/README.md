@@ -12,7 +12,10 @@ Three modes are available:
 ```bash
 $ GET <proxy public IP>:8000/actors?mode=<mode-you-want-to-use>
 ```
-
+- To post raw queries to the database:
+```bash
+$ POST <proxy public IP>:8000/query?mode=<mode-you-want-to-use>
+```
 The JSON should have this structure:
 ```bash
 {
