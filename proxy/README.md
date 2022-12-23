@@ -15,7 +15,7 @@ $ GET <proxy public IP>:8000/actors?mode=<mode-you-want-to-use>
 
 - To send a query by directly typing it:
 ```bash
-$ GET <proxy public IP>:8000/query?mode=<mode-you-want-to-use>
+$ POST <proxy public IP>:8000/query?mode=<mode-you-want-to-use>
 ```
 The JSON should have this structure:
 ```bash
